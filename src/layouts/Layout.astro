@@ -2,6 +2,7 @@
 import "../assets/styles/app.scss";
 import "@fontsource-variable/montserrat";
 import "@fontsource-variable/open-sans";
+import Analytics from "src/components/analytics.html";
 
 type Props = { pageTitle: string; pageDescription: string };
 
@@ -11,6 +12,7 @@ const { pageTitle, pageDescription } = Astro.props;
 <!doctype html>
 <html lang="en">
   <head>
+    {import.meta.env.PROD ? <Analytics /> : null}
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{pageTitle}</title>
