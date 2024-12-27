@@ -1,36 +1,39 @@
-# Astro Starter Kit: Basics
+# Bakersfield Technology
+
+I built this site in 2021 when I was freelancing, and I rebuilt it multiple times to learn new technologies. It is currently built with [Astro]. You can view previous versions of the site's source code below:
+
+- [**Next.js** Bakersfield Technology Repo](https://github.com/tylerlwsmith/bakersfieldtechnology.com)
+- [**Go + Templ + Vite** Bakersfield Technology Repo](https://github.com/tylerlwsmith/go-bakersfieldtechnology)
+
+## Developing
+
+You'll need the following on your system to build this app:
+
+- Node/NPM ([Installation guide](https://nodejs.org/en/download))
+
+After cloning the repo, run the following commands:
 
 ```sh
-npm create astro@latest -- --template basics
+npm install
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Run the following command to start the development server.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+```sh
+npm run dev
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## Deploying
 
-## 🧞 Commands
+This site runs on Cloudflare pages. To deploy the site, run the following:
+
+```sh
+npm run deploy
+```
+
+This will build the site locally and deploy it to Cloudflare. Be sure to push your changes to GitHub before you deploy to keep the repo and production site in sync.
+
+## Additional commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -42,7 +45,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
