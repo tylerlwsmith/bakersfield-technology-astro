@@ -37,7 +37,7 @@ export function Navigation({
           <li key={section.id} class={"mx-4"}>
             <a
               class="border-b border-transparent hover:border-inherit transition-all p-1.5"
-              href={"#" + section.id}
+              href={"/#" + section.id}
             >
               {section.menuTitle}
             </a>
