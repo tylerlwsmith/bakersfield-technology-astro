@@ -15,7 +15,7 @@ export function Contact() {
                 text-3xl
                 sm:text-4xl
               "
-              style="font-family: Montserrat, sans-serif;"
+              style="font-family: 'Montserrat Variable', sans-serif;"
             >
               Have a project in mind?
             </p>

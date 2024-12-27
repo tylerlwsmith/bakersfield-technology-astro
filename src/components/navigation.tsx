@@ -27,8 +27,8 @@ export function Navigation({
       </span>
       <a
         href="/"
-        class="text-xl"
-        style='font-family: "Montserrat", sans-serif;'
+        class="text-xl font-black"
+        style="font-family: 'Montserrat Variable', sans-serif;"
       >
         Bakersfield Technology
       </a>

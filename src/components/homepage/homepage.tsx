@@ -1,8 +1,8 @@
 import { PageWrapper } from "src/components/page-wrapper.tsx";
 import { Navigation } from "src/components/navigation.tsx";
-import { Hero } from "src/components/homepage/components/hero.tsx";
-import { pageSections } from "src/components/homepage/homepage-sections";
-import { Footer } from "src/components/footer";
+import { Hero } from "src/components/homepage/hero.tsx";
+import { pageSections } from "src/components/homepage/homepage-sections.tsx";
+import { Footer } from "src/components/footer.tsx";
 
 export function Homepage() {
   return (

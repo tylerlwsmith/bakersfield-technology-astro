@@ -1,3 +1,5 @@
+import styles from "./who-am-i.module.scss";
+
 const links = [
   { title: "LinkedIn", link: "https://www.linkedin.com/in/tylerlwsmith/" },
   { title: "Resume", link: "https://resume.deadhandmedia.com" },
@@ -8,9 +10,9 @@ const links = [
 export function WhoAmI() {
   return (
     <div class="pt-16 pb-60 sm:pb-40 lg:pb-20 relative flex">
-      <div data-custom-style="background-image"></div>
-      <div data-custom-style="gradient"></div>
-      <div data-custom-style="offset"></div>
+      <div class={styles.backgroundImage}></div>
+      <div class={styles.gradient}></div>
+      <div class={styles.offset}></div>
       <div class="relative max-w-3xl px-8 mx-auto lg:mx-0 w-full">
         <h2
           class="

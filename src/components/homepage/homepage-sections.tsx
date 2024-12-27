@@ -1,7 +1,7 @@
-import { Services } from "src/components/homepage/components/services";
-import { Technologies } from "src/components/homepage/components/technologies";
-import { WhoAmI } from "src/components/homepage/components/who-am-i";
-import { Contact } from "src/components/homepage/components/contact";
+import { Services } from "src/components/homepage/services";
+import { Technologies } from "src/components/homepage/technologies";
+import { WhoAmI } from "src/components/homepage/who-am-i";
+import { Contact } from "src/components/homepage/contact";
 
 interface PageSection {
   component: React.ReactNode;

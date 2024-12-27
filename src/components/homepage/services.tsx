@@ -3,14 +3,14 @@ import type { ReactNode } from "preact/compat";
 import { Container } from "src/components/container";
 import { FadeIn } from "src/components/fadein";
 
-import GlobeAltIcon from "src/assets/heroicons/globe-alt.svg?react";
-import DeviceMobileIcon from "src/assets/heroicons/device-mobile.svg?react";
-import TemplateIcon from "src/assets/heroicons/template.svg?react";
-import SortDescendingIcon from "src/assets/heroicons/sort-descending.svg?react";
-import DesktopComputerIcon from "src/assets/heroicons/desktop-computer.svg?react";
-import ClipboardListIcon from "src/assets/heroicons/clipboard-list.svg?react";
-import ExclamationIcon from "src/assets/heroicons/exclamation.svg?react";
-import LightBulbIcon from "src/assets/heroicons/light-bulb.svg?react";
+import GlobeAltIcon from "./heroicons/globe-alt.svg?react";
+import DeviceMobileIcon from "./heroicons/device-mobile.svg?react";
+import TemplateIcon from "./heroicons/template.svg?react";
+import SortDescendingIcon from "./heroicons/sort-descending.svg?react";
+import DesktopComputerIcon from "./heroicons/desktop-computer.svg?react";
+import ClipboardListIcon from "./heroicons/clipboard-list.svg?react";
+import ExclamationIcon from "./heroicons/exclamation.svg?react";
+import LightBulbIcon from "./heroicons/light-bulb.svg?react";
 
 const services = [
   {
@@ -84,7 +84,7 @@ export function Services() {
     <div class="bg-pink-50 pt-12 pb-16 overflow-hidden">
       <Container>
         <h2 class="text-pink-600 text-5xl font-black mb-6 text-center">
-          Services!
+          Services
         </h2>
         <div
           class="

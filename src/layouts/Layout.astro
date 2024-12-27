@@ -1,5 +1,7 @@
 ---
 import "../assets/styles/app.scss";
+import "@fontsource-variable/montserrat";
+import "@fontsource-variable/open-sans";
 
 type Props = { pageTitle: string; pageDescription: string };
 
@@ -22,12 +24,6 @@ const { pageTitle, pageDescription } = Astro.props;
     <meta
       property="og:image"
       content="https://bakersfieldtechnology.com/og-image.jpg"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
     />
     <script src="../assets/scripts/app.ts"></script>
   </head>

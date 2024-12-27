@@ -1,11 +1,11 @@
-@use "tailwind";
-@use "hero";
-@use "about";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans Variable", sans-serif;
 }
 
 /**
@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat Variable", sans-serif;
 }
 
 .not-antialiased {

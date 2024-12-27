@@ -20,7 +20,7 @@ const tools = [
 const languages = ["JavaScript", "Python", "PHP", "Ruby"];
 
 function ListTitle({ children }: { children: ReactNode }) {
-  return <h3 class="mb-2 text-lg sm:text-xl">{children}</h3>;
+  return <h3 class="mb-2 text-lg sm:text-xl font-black">{children}</h3>;
 }
 
 function List({ children }: { children: ReactNode }) {

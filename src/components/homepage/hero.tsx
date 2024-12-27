@@ -1,11 +1,12 @@
 import type { ReactNode } from "preact/compat";
-import { FadeIn } from "../../fadein.tsx";
+import heroImage from "./hero.jpg";
+import { FadeIn } from "src/components/fadein";
 
 function InsetBackground() {
   return (
     <div
       class="z-0 inset-0 absolute bg-no-repeat bg-cover bg-center opacity-30 mix-blend-soft-light sm:bg-fixed"
-      data-custom-style="hero-background"
+      style={{ backgroundImage: `url(${heroImage.src})` }}
     ></div>
   );
 }
