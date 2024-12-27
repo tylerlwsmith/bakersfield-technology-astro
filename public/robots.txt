@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://bakersfieldtechnology.com/sitemap.xml

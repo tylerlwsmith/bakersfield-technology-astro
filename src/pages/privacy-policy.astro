@@ -1,0 +1,26 @@
+---
+import Layout from "src/layouts/Layout.astro";
+import { Navigation } from "src/components/navigation";
+import { PageWrapper } from "src/components/page-wrapper";
+import { Container } from "src/components/container";
+import { Content } from "src/assets/content/privacy-policy.md";
+import { Footer } from "src/components/footer";
+---
+
+<Layout
+  pageTitle="Privacy Policy | Bakersfield Technology"
+  pageDescription="Read our privacy policy."
+>
+  <PageWrapper>
+    <Navigation
+      tailwindLinkColorClass="text-pink-700"
+      tailwindPositionClass="relative"
+    />
+    <Container>
+      <main id="main" class="prose mx-4 mt-16 mb-28 max-w-full">
+        <Content />
+      </main>
+    </Container>
+    <Footer />
+  </PageWrapper>
+</Layout>
